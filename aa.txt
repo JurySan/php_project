@@ -1,0 +1,25 @@
+///* Pagination Code starts */
+//$limit=3;
+//$statement=$conn->prepare("SELECT * FROM employee");
+//$statement->execute();
+////$allResp = $statement->fetchAll(PDO::FETCH_ASSOC);
+//$total_result=$statement->rowCount();
+//
+//$total_page= ceil($total_result/$limit);
+//if(!isset($_GET['page']))
+//{
+//    $page=1;
+//}else{
+//    $page=$_GET['page'];
+//}
+//
+//$start=($page-1)*$limit;
+//$show  = "SELECT * FROM employee ORDER BY id ASC LIMIT $start,$limit";
+//$query=$conn->prepare($show);
+//$query->execute();
+//$result=$query->fetchAll();
+//$connection=null;
+//$no = $page > 1 ? $start+1 : 1;
+//
+
+
